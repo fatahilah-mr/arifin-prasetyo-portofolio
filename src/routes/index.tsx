@@ -1,29 +1,44 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/Navbar";
+import { Hero } from "@/components/Hero";
+import { HighlightBanner } from "@/components/HighlightBanner";
+import { Certifications } from "@/components/Certifications";
+import { Skills } from "@/components/Skills";
+import { PortfolioGrid } from "@/components/PortfolioGrid";
+import { ContactCard } from "@/components/ContactCard";
+import { Footer } from "@/components/Footer";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Arifin Prasetyo — Professional Cook & Pastry" },
+      {
+        name: "description",
+        content:
+          "Portofolio Arifin Prasetyo, lulusan terbaik Jurusan Kuliner SMK Patriot Pituruh 2026. Hot kitchen, baking & pastry, dan pengalaman industri hotel bintang 4.",
+      },
+      { property: "og:title", content: "Arifin Prasetyo — Professional Cook & Pastry" },
+      {
+        property: "og:description",
+        content:
+          "Portofolio kuliner: hot kitchen, baking & pastry, beverages. Tersedia untuk kolaborasi.",
+      },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <main className="min-h-screen bg-background">
+      <Navbar />
+      <Hero />
+      <HighlightBanner />
+      <Certifications />
+      <Skills />
+      <PortfolioGrid />
+      <ContactCard />
+      <Footer />
+    </main>
   );
 }
