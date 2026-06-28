@@ -1,4 +1,4 @@
-import profile from "@/assets/profile.jpg";
+import profile from "@/assets/profile.webp";
 
 export function Hero() {
   const scrollTo = (id: string) =>

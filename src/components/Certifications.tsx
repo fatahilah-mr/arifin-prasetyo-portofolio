@@ -1,7 +1,7 @@
-import certLulusan from "@/assets/cert-lulusan-terbaik.jpg";
-import certKinken from "@/assets/cert-pkl-kinken.jpg";
-import certSwiss from "@/assets/cert-pkl-swissbelhotel.jpg";
-import certTable from "@/assets/cert-table-manner.jpg";
+import certLulusan from "@/assets/cert-lulusan-terbaik.webp";
+import certKinken from "@/assets/cert-pkl-kinken.webp";
+import certSwiss from "@/assets/cert-pkl-swissbelhotel.webp";
+import certTable from "@/assets/cert-table-manner.webp";
 
 const items = [
   {

@@ -1,18 +1,18 @@
 import { useMemo, useState } from "react";
-import cordon from "@/assets/menu-cordon-bleu.jpg";
-import shrimp from "@/assets/menu-shrimp-salad.jpg";
-import club from "@/assets/menu-club-sandwich.jpg";
-import slice from "@/assets/menu-slice-cake.jpg";
-import sweet from "@/assets/menu-sweet-bread.jpg";
-import muffin from "@/assets/menu-chocolate-muffin.jpg";
-import welcome from "@/assets/menu-welcome-cake.jpg";
-import birthday from "@/assets/menu-birthday-cake.jpg";
-import donuts from "@/assets/menu-donuts.jpg";
-import pudding from "@/assets/menu-bread-pudding.jpg";
-import toast from "@/assets/menu-white-toast.jpg";
-import soes from "@/assets/menu-soes.jpg";
-import roll from "@/assets/menu-roll-cake.jpg";
-import mocktails from "@/assets/menu-mocktails.jpg";
+import cordon from "@/assets/menu-cordon-bleu.webp";
+import shrimp from "@/assets/menu-shrimp-salad.webp";
+import club from "@/assets/menu-club-sandwich.webp";
+import slice from "@/assets/menu-slice-cake.webp";
+import sweet from "@/assets/menu-sweet-bread.webp";
+import muffin from "@/assets/menu-chocolate-muffin.webp";
+import welcome from "@/assets/menu-welcome-cake.webp";
+import birthday from "@/assets/menu-birthday-cake.webp";
+import donuts from "@/assets/menu-donuts.webp";
+import pudding from "@/assets/menu-bread-pudding.webp";
+import toast from "@/assets/menu-white-toast.webp";
+import soes from "@/assets/menu-soes.webp";
+import roll from "@/assets/menu-roll-cake.webp";
+import mocktails from "@/assets/menu-mocktails.webp";
 
 type Category = "Main Course & Appetizer" | "Pastry & Bakery" | "Beverages";
 
