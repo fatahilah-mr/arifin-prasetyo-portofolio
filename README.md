@@ -48,16 +48,16 @@ arifin-prasetyo-portofolio/
 
 ## 💻 Pengembangan Lokal
 
-### 1. Clone repositori
+1. Clone repositori
 ```bash
 git clone https://github.com/fatahilah-mr/arifin-prasetyo-portofolio.git
 cd arifin-prasetyo-portofolio
 ```
-### 2. Instal dependensi menggunakan Bun
+2. Instal dependensi menggunakan Bun
 ```bash
 bun install
 ```
-### 3. Jalankan server pengembangan
+3. Jalankan server pengembangan
 ```bash
 bun run dev
 ```
