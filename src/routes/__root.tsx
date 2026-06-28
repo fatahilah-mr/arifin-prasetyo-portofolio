@@ -77,7 +77,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Arifin Prasetyo — Professional Cook" },
+      { title: "Arifin Prasetyo - Professional Cook" },
       { name: "description", content: "Portofolio chef Arifin Prasetyo: hot kitchen, pastry & bakery, beverages." },
       { name: "author", content: "Arifin Prasetyo" },
       { property: "og:type", content: "website" },
