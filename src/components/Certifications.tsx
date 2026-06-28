@@ -13,13 +13,13 @@ const items = [
   },
   {
     date: "Desember 2025",
-    title: "Sertifikat Praktik Kerja Lapangan — 6 Bulan",
+    title: "Sertifikat Praktik Kerja Lapangan - 6 Bulan",
     issuer: "KinKEN Cake & Bakery",
     img: certKinken,
   },
   {
     date: "April 2025",
-    title: "Certificate of Industrial Work Experience — 3 Bulan",
+    title: "Certificate of Industrial Work Experience - 3 Bulan",
     issuer: "Swiss-Belhotel Airport Yogyakarta",
     img: certSwiss,
   },
