@@ -30,14 +30,16 @@ Sebuah website portofolio kuliner premium yang dirancang khusus untuk **Arifin P
 
 ```text
 arifin-prasetyo-portofolio/
-├── public/
+├── public/                 # Berkas optimasi deployment
 │   ├── _redirects
 │   ├── robots.txt
 │   └── sitemap.xml
 ├── src/
-│   ├── components/
-│   ├── App.tsx
-│   └── main.tsx
+│   ├── components/         # Komponen UI modular (Navbar, Hero, Skills, dll.)
+│   ├── routes/             # TanStack File-Based Routing (__root.tsx, index.tsx)
+│   ├── main.tsx            # Aplikasi entry point
+│   └── router.tsx          # Konfigurasi rute TanStack
+├── bun.lock
 ├── package.json
 └── vite.config.ts
 ```
@@ -46,25 +48,19 @@ arifin-prasetyo-portofolio/
 
 ## 💻 Pengembangan Lokal
 
-1. Clone repositori:
-
+### 1. Clone repositori
 ```bash
 git clone https://github.com/fatahilah-mr/arifin-prasetyo-portofolio.git
 cd arifin-prasetyo-portofolio
 ```
-
-2. Instal dependensi:
-
+### 2. Instal dependensi menggunakan Bun
 ```bash
-npm install
+bun install
 ```
-
-3. Jalankan server pengembangan:
-
+### 3. Jalankan server pengembangan
 ```bash
-npm run dev
+bun run dev
 ```
-
 ---
 
 ## ✒️ Atribusi & Hak Cipta
