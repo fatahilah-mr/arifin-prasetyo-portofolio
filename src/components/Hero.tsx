@@ -34,7 +34,6 @@ export function Hero() {
               className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-medium text-primary-foreground shadow-[0_10px_25px_-12px_oklch(0.36_0.16_25)] transition hover:translate-y-[-1px] hover:shadow-[0_15px_30px_-12px_oklch(0.36_0.16_25)]"
             >
               Lihat Galeri Menu
-              <span aria-hidden>→</span>
             </button>
             <button
               onClick={() => scrollTo("kontak")}
