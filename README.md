@@ -26,7 +26,7 @@ Sebuah website portofolio kuliner premium yang dirancang khusus untuk **Arifin P
 
 ---
 
-## 📂 Struktur Direktori
+## 📂 Struktur Direktori Vital
 
 ```text
 arifin-prasetyo-portofolio/
