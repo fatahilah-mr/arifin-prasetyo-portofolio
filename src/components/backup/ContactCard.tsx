@@ -68,13 +68,13 @@ export function ContactCard() {
               <MapPin className="mt-0.5 h-4 w-4 text-primary" />
               <div>
                 <dt className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">Lokasi</dt>
-                <dd className="mt-1 text-sm text-[var(--color-ink)]">Purworejo, Indonesia</dd>
+                <dd className="mt-1 text-sm text-[var(--color-ink)]">Purworejo, ID</dd>
               </div>
             </div>
           </dl>
 
           <div className="mt-8 flex items-center gap-3 border-t border-black/5 pt-7">
-            <span className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">Sosial Media</span>
+            <span className="text-[11px] uppercase tracking-[0.2em] text-muted-foreground">Sosial</span>
             <a
               href="https://www.instagram.com/arifinprasetyo8"
               target="_blank"

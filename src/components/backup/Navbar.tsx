@@ -28,19 +28,17 @@ export function Navbar() {
 
   return (
     <>
+      {/* ===== NAVBAR UTAMA ===== */}
       <header className="sticky top-3 z-50 mx-auto w-full px-3 sm:top-5 sm:px-6">
         <div className="mx-auto flex max-w-3xl items-center justify-between rounded-full border border-black/5 bg-white/70 px-5 py-3 shadow-[0_6px_30px_-12px_rgba(0,0,0,0.15)] backdrop-blur-xl">
+          {/* Logo sekarang langsung teks "Arifin Prasetyo" tanpa lingkaran */}
           <button
             onClick={() => go("beranda")}
-            className="flex items-center gap-2 font-display text-lg font-semibold tracking-tight text-[var(--color-ink)]"
+            className="flex items-center font-display text-base font-semibold tracking-tight text-[var(--color-ink)] sm:text-lg"
           >
-            <span className="grid h-8 w-8 place-items-center rounded-full bg-primary text-primary-foreground text-[13px] font-semibold">
-              AP
-            </span>
-            <span className="hidden text-sm font-medium text-muted-foreground sm:inline">
-              Arifin Prasetyo
-            </span>
+            <span>Arifin Prasetyo</span>
           </button>
+
           <button
             aria-label="Open menu"
             onClick={() => setOpen(true)}
@@ -51,10 +49,14 @@ export function Navbar() {
         </div>
       </header>
 
+      {/* ===== OVERLAY MENU (saat hamburger diklik) ===== */}
       {open && (
         <div className="fixed inset-0 z-[60] bg-[var(--color-background)]/95 backdrop-blur-xl">
           <div className="flex items-center justify-between px-6 py-5">
-            <span className="font-display text-lg font-semibold">AP</span>
+            {/* Ganti "AP" menjadi "Arifin Prasetyo" dengan ukuran responsif */}
+            <span className="font-display text-base font-semibold sm:text-lg">
+              Arifin Prasetyo
+            </span>
             <button
               aria-label="Close menu"
               onClick={() => setOpen(false)}
@@ -63,6 +65,7 @@ export function Navbar() {
               <X size={18} />
             </button>
           </div>
+
           <nav className="mt-10 flex flex-col items-center gap-6 px-6">
             {links.map((l, i) => (
               <button
@@ -75,9 +78,11 @@ export function Navbar() {
               </button>
             ))}
           </nav>
+
           <p className="absolute bottom-8 left-0 right-0 text-center text-xs uppercase tracking-[0.25em] text-muted-foreground">
             Professional Cook · Purworejo, ID
           </p>
+
           <style>{`@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}`}</style>
         </div>
       )}

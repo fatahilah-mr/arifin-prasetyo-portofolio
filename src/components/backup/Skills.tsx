@@ -53,7 +53,7 @@ export function Skills() {
           <p className="text-[11px] uppercase tracking-[0.25em] text-muted-foreground">
             Kompetensi Inti
           </p>
-          <h2 className="mt-2 font-display text-3xl sm:text-5xl">Keahlian Saya</h2>
+          <h2 className="mt-2 font-display text-3xl sm:text-5xl">Keahlian yang Saya Bawa ke Dapur</h2>
         </header>
         <div className="grid gap-6 md:grid-cols-2">
           <Group label="Hard Skills" title="Keahlian Teknis" items={hard} variant="primary" />
