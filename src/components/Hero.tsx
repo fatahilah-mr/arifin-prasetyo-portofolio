@@ -59,7 +59,7 @@ export function Hero() {
               />
             </div>
             <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full border border-black/5 bg-white px-5 py-2.5 text-[12.5px] font-medium text-[var(--color-ink)] shadow-[0_18px_40px_-18px_rgba(0,0,0,0.35)]">
-              <span aria-hidden>🍳</span> Professional Cook —{" "}
+              <span aria-hidden>🍳</span> Professional Cook -{" "}
               <span className="text-muted-foreground">Lulusan SMK Jurusan Kuliner</span>
             </div>
           </div>
