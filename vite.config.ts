@@ -12,4 +12,11 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Tambahan konfigurasi Vite agar website memuat CSS/JS di Chrome versi lawas
+  vite: {
+    build: {
+      target: "es2015",
+      cssTarget: "chrome61",
+    },
+  },
 });
