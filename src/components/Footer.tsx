@@ -6,7 +6,7 @@ export function Footer() {
         <p>
           Crafted by{" "}
           <a
-            href="https://fatahmr.my.id"
+            href="https://fatah.web.id"
             target="_blank"
             rel="noreferrer"
             className="font-medium text-[var(--color-ink)] underline-offset-4 hover:text-primary hover:underline"
