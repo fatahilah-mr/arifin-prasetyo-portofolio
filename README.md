@@ -1,5 +1,5 @@
-<div align="center">
-  # Arifin Prasetyo Portfolio
+# Arifin Prasetyo Portfolio
+---
   *A premium culinary portfolio website designed specifically for Arifin Prasetyo, a Professional Cook and Top Culinary Graduate of 2026.*
 
   <p>
