@@ -2,7 +2,7 @@
 
 Sebuah website portofolio kuliner premium yang dirancang khusus untuk **Arifin Prasetyo**, seorang **Professional Cook** dan **Lulusan Terbaik Jurusan Kuliner 2026**. Proyek ini dibangun menggunakan arsitektur modern berbasis komponen modular, mengutamakan pendekatan **mobile-first**, serta dioptimalkan untuk performa dan indeksasi mesin pencari.
 
-🌐 **Live Demo:** <https://arifin.fatahmr.my.id>
+🌐 **Live Demo:** <https://arifin.fatah.web.id>
 
 ---
 
