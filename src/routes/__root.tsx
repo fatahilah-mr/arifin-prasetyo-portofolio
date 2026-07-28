@@ -81,9 +81,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Portofolio chef Arifin Prasetyo: hot kitchen, pastry & bakery, beverages." },
       { name: "author", content: "Arifin Prasetyo" },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://arifin.fatah.web.id/" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
+      { rel: "canonical", href: "https://arifin.fatah.web.id/" },
       { rel: "stylesheet", href: appCss },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },

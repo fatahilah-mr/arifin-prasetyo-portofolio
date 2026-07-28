@@ -23,7 +23,9 @@ export const Route = createFileRoute("/")({
         content:
           "Portofolio kuliner: hot kitchen, baking & pastry, beverages. Tersedia untuk kolaborasi.",
       },
+      { property: "og:url", content: "https://arifin.fatah.web.id/" },
     ],
+    links: [{ rel: "canonical", href: "https://arifin.fatah.web.id/" }],
   }),
   component: Index,
 });
